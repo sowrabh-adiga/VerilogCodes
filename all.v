@@ -1,0 +1,10 @@
+module all(a,b,o);
+input a,b;
+output [5:0]o;
+or(o[0],a,b);
+and(o[1],a,b);
+nor(o[2],a,b);
+nand(o[3],a,b);
+xor(o[4],a,b);
+xnor(o[5],a,b);
+endmodule // alla,b,oinput a,b;

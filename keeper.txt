@@ -1,0 +1,5 @@
+test_inv:
+	iverilog inverter1.v invtb.v
+	./a.out
+	gtkwave inv_test
+	rm -f a.out inv_test
